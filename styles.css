@@ -98,6 +98,12 @@ nav {
     background: var(--second-text-color);
   }
 
+  .menu a {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+  }
+
   .menu.active,
   .toggle {
     display: block;
@@ -111,6 +117,10 @@ nav {
 
   .menu li {
     position: relative;
+  }
+
+  ul.menu li:last-child {
+    margin-bottom: 20px;
   }
 
   .toggle a {
@@ -339,21 +349,6 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-  nav {
-    padding: 15px 20px;
-  }
-
-  .logo {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .menu a {
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 30px;
-  }
-
   .welcome {
     height: 100vh;
     background: var(--background-color);
