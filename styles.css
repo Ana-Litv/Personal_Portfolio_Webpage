@@ -89,8 +89,13 @@ nav {
   }
 
   .menu {
-    margin-top: 15px;
     display: none;
+    position: fixed;
+    top: 67px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: var(--second-text-color);
   }
 
   .menu.active,
